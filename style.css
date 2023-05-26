@@ -1,16 +1,25 @@
 /* hero background image */
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .bgimage {
-    height:100vh;
-    background: url('https://img.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_52683-80661.jpg?w=360');
+    height:50vh;
+    background: url('https://i.pinimg.com/originals/46/b5/6f/46b56f087b6af02e984ed75da0faf02c.gif');
     background-size:cover;
     position:relative;
+    box-shadow: 0px 0px 30px 0px #ffb6c1;
 }
+
+
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Shrikhand', cursive;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 25px;
 }
 .hero-text {
     text-align: center;
@@ -20,45 +29,123 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+.col-lg-8{
+    margin-top: 80px;
+    background-color: #ffb6c1;
+    height: 50%;
+}
 
 /* about section image css */
 .imageAboutPage {
     width: 100%;
+    box-shadow: 0px 0px 10px 0px #ffb6c1;
 }
 
-/* services section css */
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-  }
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
+/* skills section css */
+
 .card-title {
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #ffb6c1;
 }
-.servicesText:hover {
-    border: 1px solid #008000;
+
+.card:hover {
+    color: #ff3496;
+}
+
+.skillsText:hover {
+    border: 1px solid #ffb6c1;
 }
 
 
 /* display background color black on navbar scroll */
 .navbarScroll {
-    background-color: rgb(255, 205, 240);
+    background-color:	#ffb6c1;
 }
 
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
-    font-size: 36px;
+
+.nav-link{
+    color:white;
+    font-size: 18px;
+    
+}
+
+.nav-link:hover {
+    color: #ff3496;
+}
+
+.fa-linkedin:hover {
+    color: #ff3496;
+    font-size: 40px;
     cursor: pointer;
 }
 .fab {
-    color: #000000;
+    padding-left: 10px;
+    color: #ffffff;
     font-size: 36px;
     cursor: pointer;
+}
+
+
+.skill-text{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skill-container {
+ 
+    align-items: center;
+    margin: 100px;
+    margin-top: 200px;
+    background-color: #ffb6c1;
+    padding: 20px;
+}
+
+.portfolio-text{
+    color: #ffb6c1;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-container{
+    width: 500px;
+    height: 650px;
+    margin: auto;
+}
+
+.portfolio-card {
+    display: flex;
+    justify-content: center;
+}
+.skillsText{
+    color:pink
+}
+
+
+h1{
+    color: white;
+
+}
+
+.p-text{
+    color:white;
+}
+
+.btn{
+    background-color: #ffb6c1;
+    border-color: #ff3496;
+}
+
+.btn:hover {
+    background-color: #ff3496;
+}
+.btn-success{
+    background-color: #ffb6c1;
+}
+
+.port-p{
+    color:#ffb6c1;
 }
